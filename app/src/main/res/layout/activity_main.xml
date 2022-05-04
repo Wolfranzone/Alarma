@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="La separacion entre el pasado,presente y futuro es solo una ilusion"
+        android:textAlignment="center"
+
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/seleccionarhora"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/material_dynamic_neutral10"
+        android:text="Selecciona Hora"
+        android:textColorLink="#55837F"
+        android:textSize="28dp"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/colocarhora"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="8dp"
+        android:text="Colocar Hora"
+        android:textSize="28dp"
+        app:cornerRadius="50dp" />
+
+    <Button
+        android:id="@+id/cancelaralarma"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancelar Alarma"
+        android:textSize="28dp"
+        app:cornerRadius="50dp" />
+
+
+</LinearLayout>
